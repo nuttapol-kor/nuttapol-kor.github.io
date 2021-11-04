@@ -1,0 +1,30 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skills-section {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-divider {
+  border-top: 1px solid #bbb;
+}
+
+.skills-section-title {
+  font-size: 20px;
+  font-weight: 600;
+}

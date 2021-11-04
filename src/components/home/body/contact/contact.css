@@ -1,0 +1,75 @@
+.contact-top {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contact-col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  /* width: 100%; */
+}
+
+.contact-top-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.contact-link {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 16px;
+  transition: 0.3s ease;
+  position: relative;
+  left: 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-link:hover {
+  color: gray;
+  left: 6px;
+}
+
+.contact-buttom {
+  max-width: 1040px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social-icon {
+  transition: 0.3s ease;
+  color: #676e7a;
+  border-radius: 50px;
+  padding: 8px;
+  font-size: 30px;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px) {
+  .contact-link {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .contact-link {
+    font-size: 14px;
+  }
+
+  .contact-top {
+    justify-content: flex-start;
+  }
+}

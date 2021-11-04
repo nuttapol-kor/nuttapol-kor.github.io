@@ -1,0 +1,14 @@
+.info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.info-img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.info-title {
+  font-weight: 600;
+}
